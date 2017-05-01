@@ -20,7 +20,7 @@ metadata:
   labels:
     run: hello-world
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       run: hello-world
